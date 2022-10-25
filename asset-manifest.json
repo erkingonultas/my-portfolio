@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.19e94570.css",
+    "main.js": "/my-portfolio/static/js/main.2dc66d31.js",
+    "static/media/timple_bg.jpg": "/my-portfolio/static/media/timple_bg.3274d829551389061f41.jpg",
+    "static/media/timple-ss1.png": "/my-portfolio/static/media/timple-ss1.56f4c9eec2a7697a7a55.png",
+    "static/media/bg-texture.png": "/my-portfolio/static/media/bg-texture.ec94b5df56feae961c12.png",
+    "static/media/apollo_bg.jpg": "/my-portfolio/static/media/apollo_bg.3febf6dbdf69b862adc1.jpg",
+    "static/media/Erkin-Gonultas-Resume.pdf": "/my-portfolio/static/media/Erkin-Gonultas-Resume.70506c6497c3bb34d830.pdf",
+    "static/media/apollo-ss1.png": "/my-portfolio/static/media/apollo-ss1.3a104ebadb218f0269ae.png",
+    "static/media/calorimeter-ss1.png": "/my-portfolio/static/media/calorimeter-ss1.2328f9b221dbe23685aa.png",
+    "static/media/apollo-ss2.png": "/my-portfolio/static/media/apollo-ss2.df1d2aea84864f832331.png",
+    "static/media/timple-ss2.png": "/my-portfolio/static/media/timple-ss2.f9808fb3a8838f0a83a4.png",
+    "static/media/calorimeter-ss2.png": "/my-portfolio/static/media/calorimeter-ss2.1faae8c56ce7d66fb8f4.png",
+    "static/media/behance-light.svg": "/my-portfolio/static/media/behance-light.86d7384ec632b3dbd7eaffae2bbe50f5.svg",
+    "static/media/behance.svg": "/my-portfolio/static/media/behance.1f328c9d8694c022064507c94290a5e9.svg",
+    "static/media/resume.svg": "/my-portfolio/static/media/resume.6b054b1948044e185d3211f24ad15218.svg",
+    "static/media/github-light.svg": "/my-portfolio/static/media/github-light.f29412c2752c6389e650530355c2725a.svg",
+    "static/media/github.svg": "/my-portfolio/static/media/github.ec358ced49144bb98d95c7ec32f68761.svg",
+    "static/media/gmail-light.svg": "/my-portfolio/static/media/gmail-light.056dc7adcfb382eb7fb9a263abf0a0ba.svg",
+    "static/media/gmail.svg": "/my-portfolio/static/media/gmail.ba0c1541a137d68438241425e4b7f03a.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.19e94570.css.map": "/my-portfolio/static/css/main.19e94570.css.map",
+    "main.2dc66d31.js.map": "/my-portfolio/static/js/main.2dc66d31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19e94570.css",
+    "static/js/main.2dc66d31.js"
+  ]
+}

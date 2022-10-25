@@ -1,0 +1,23 @@
+.portfolio {
+  min-height: min-content;
+  height: max-content;
+  width: 100vw;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.portfolio-work {
+  margin: 2rem;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+  background-color: var(--primary);
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-work {
+    margin: 2rem 1.5rem 0 1.5rem;
+    height: 95vh;
+  }
+}

@@ -65,7 +65,7 @@ const slideData = [
     button1: 'Check out on Github',
     href1: "https://github.com/erkingonultas/project_pan",
     button2: 'Explore on Behance',
-    href2: "https://www.behance.net/erkingnlta1",
+    href2: "https://www.behance.net/gallery/155703251/Social-Concert-App-UI-Project",
     src: TimpleBg,
     picOne: TimpleSS1,
     picTwo: TimpleSS2,

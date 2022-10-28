@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.9ccc9c23.css",
-    "main.js": "/my-portfolio/static/js/main.4b968d83.js",
+    "main.css": "/my-portfolio/static/css/main.5c331200.css",
+    "main.js": "/my-portfolio/static/js/main.4cd36731.js",
     "static/media/timple_bg.jpg": "/my-portfolio/static/media/timple_bg.3274d829551389061f41.jpg",
     "static/media/bg-texture.png": "/my-portfolio/static/media/bg-texture.ec94b5df56feae961c12.png",
     "static/media/apollo_bg.jpg": "/my-portfolio/static/media/apollo_bg.3febf6dbdf69b862adc1.jpg",
@@ -20,11 +20,11 @@
     "static/media/gmail-light.svg": "/my-portfolio/static/media/gmail-light.056dc7adcfb382eb7fb9a263abf0a0ba.svg",
     "static/media/gmail.svg": "/my-portfolio/static/media/gmail.ba0c1541a137d68438241425e4b7f03a.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.9ccc9c23.css.map": "/my-portfolio/static/css/main.9ccc9c23.css.map",
-    "main.4b968d83.js.map": "/my-portfolio/static/js/main.4b968d83.js.map"
+    "main.5c331200.css.map": "/my-portfolio/static/css/main.5c331200.css.map",
+    "main.4cd36731.js.map": "/my-portfolio/static/js/main.4cd36731.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ccc9c23.css",
-    "static/js/main.4b968d83.js"
+    "static/css/main.5c331200.css",
+    "static/js/main.4cd36731.js"
   ]
 }

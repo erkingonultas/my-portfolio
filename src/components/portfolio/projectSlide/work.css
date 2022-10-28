@@ -76,6 +76,7 @@
 
 .headlines > small {
   color: var(--primary);
+  opacity: .75;
   font-size: .9rem;
   font-weight: 100;
   font-style: italic;
@@ -101,6 +102,7 @@
 .pics {
   height: 65vmin;
   display: inline-flex;
+  gap: 10px;
   align-items: center;
 }
 

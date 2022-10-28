@@ -42,7 +42,9 @@ class Slide extends React.Component {
                     <div className="headlines">
                         <h2 className="slide__headline">{this.props.data.headline}</h2>
                         {this.props.data.desc !== "" ? <small>{this.props.data.desc}<br /></small> : null} 
-                        <a className="slide__action btn" href={this.props.data.href1} target="_blank" rel="noopener noreferrer">{this.props.data.button1}</a>
+                        {this.props.data.href1 === "" ?
+                        <a className="slide__action btn disabled" href={this.props.data.href1} target="_blank" rel="noopener noreferrer">{this.props.data.button1}</a>
+                        : <a className="slide__action btn" href={this.props.data.href1} target="_blank" rel="noopener noreferrer">{this.props.data.button1}</a>}
                         {this.props.data.href2 !== "" ? <a className="slide__action btn" href={this.props.data.href2} target="_blank" rel="noopener noreferrer">{this.props.data.button2}</a> : null}
                     </div>
                     <div className="pics">

@@ -12,7 +12,7 @@ const About = () => {
       <h2 style={{ 'fontWeight': "900" }} >ABOUT ME</h2>
       <p>
         I am a mobile app developer based in Istanbul, Turkey.<br />Currently holding a degree from Gazi University in Chemical Engineering. <br /><br />
-        I've been developing mobile apps since late 2019. A passion started as a hobby... <br /><br />
+        I've been developing mobile apps since early 2020. A passion started as a hobby... <br /><br />
         While building my own projects;<br /> I started freelancing, built several apps for clients.
       </p>
       <div className="about__content">

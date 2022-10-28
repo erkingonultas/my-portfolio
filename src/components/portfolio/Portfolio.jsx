@@ -63,7 +63,7 @@ const slideData = [
     headline: 'TIMPLE',
     desc: 'a social media project.',
     button1: 'Check out on Github',
-    href1: "https://github.com/erkingonultas/project_pan",
+    href1: "",
     button2: 'Explore on Behance',
     href2: "https://www.behance.net/gallery/155703251/Social-Concert-App-UI-Project",
     src: TimpleBg,

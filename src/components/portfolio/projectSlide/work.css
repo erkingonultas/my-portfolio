@@ -18,6 +18,11 @@
   margin-right: 2rem;
 }
 
+.disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+
 .btn:focus {
   outline-color: var(--fourth);
   outline-offset: 2px;

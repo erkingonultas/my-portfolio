@@ -9,7 +9,7 @@ import CV from '../../assets/Erkin-Gonultas-Resume.pdf'
 const Footer = () => {
   return (
     <footer>
-      <a href="/" aria-current="page" className='scroll_top'>scroll top</a>
+      <a href="#header" aria-current="page" className='scroll_top'>scroll top</a>
       <ul className='permalinks'>
         <li><a href="#header">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>

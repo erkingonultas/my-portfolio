@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5c331200.css",
-    "main.js": "/my-portfolio/static/js/main.b43d533c.js",
+    "main.css": "/my-portfolio/static/css/main.1e9e17ca.css",
+    "main.js": "/my-portfolio/static/js/main.ce0aab8c.js",
+    "static/media/schuldenex_bg.png": "/my-portfolio/static/media/schuldenex_bg.d7e88af483ed6a9a2bbd.png",
     "static/media/timple_bg.jpg": "/my-portfolio/static/media/timple_bg.3274d829551389061f41.jpg",
     "static/media/bg-texture.png": "/my-portfolio/static/media/bg-texture.ec94b5df56feae961c12.png",
+    "static/media/Erkin-Gonultas-Resume.pdf": "/my-portfolio/static/media/Erkin-Gonultas-Resume.6f4dbf245841dde65225.pdf",
     "static/media/apollo_bg.jpg": "/my-portfolio/static/media/apollo_bg.3febf6dbdf69b862adc1.jpg",
-    "static/media/Erkin-Gonultas-Resume.pdf": "/my-portfolio/static/media/Erkin-Gonultas-Resume.70506c6497c3bb34d830.pdf",
     "static/media/timple-ss2.png": "/my-portfolio/static/media/timple-ss2.0aa6db92537b04fb42c4.png",
     "static/media/apollo-ss1.png": "/my-portfolio/static/media/apollo-ss1.3a104ebadb218f0269ae.png",
+    "static/media/schuldenex-ss1.png": "/my-portfolio/static/media/schuldenex-ss1.e64256e2eb7acce11798.png",
     "static/media/calorimeter-ss1.png": "/my-portfolio/static/media/calorimeter-ss1.2328f9b221dbe23685aa.png",
     "static/media/apollo-ss2.png": "/my-portfolio/static/media/apollo-ss2.df1d2aea84864f832331.png",
     "static/media/calorimeter-ss2.png": "/my-portfolio/static/media/calorimeter-ss2.1faae8c56ce7d66fb8f4.png",
+    "static/media/schuldenex-ss2.png": "/my-portfolio/static/media/schuldenex-ss2.e818ed379b83fff98db9.png",
     "static/media/timple-ss1.png": "/my-portfolio/static/media/timple-ss1.8a743b726c96c4b1d1e2.png",
     "static/media/behance-light.svg": "/my-portfolio/static/media/behance-light.e7ef46b32867791ac65093bff4c4d345.svg",
     "static/media/behance.svg": "/my-portfolio/static/media/behance.ac1d16797e4afa9a4dfdb5aba7b4e172.svg",
     "static/media/resume.svg": "/my-portfolio/static/media/resume.61ded90f40ec0cdd8c11090f5d915c59.svg",
     "static/media/github-light.svg": "/my-portfolio/static/media/github-light.858c64772dac49a597545f5ba70247f0.svg",
     "static/media/github.svg": "/my-portfolio/static/media/github.5f725285d927af2cbf62f9c15359350d.svg",
+    "static/media/linkedin-light.svg": "/my-portfolio/static/media/linkedin-light.b9bb8c27e7ec18ce50dac6fc0c634148.svg",
     "static/media/gmail-light.svg": "/my-portfolio/static/media/gmail-light.3b200e20ef24e7f12da95a8e64e17c23.svg",
     "static/media/gmail.svg": "/my-portfolio/static/media/gmail.91723b594a73055a72615cd235a9aa6d.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.5c331200.css.map": "/my-portfolio/static/css/main.5c331200.css.map",
-    "main.b43d533c.js.map": "/my-portfolio/static/js/main.b43d533c.js.map"
+    "main.1e9e17ca.css.map": "/my-portfolio/static/css/main.1e9e17ca.css.map",
+    "main.ce0aab8c.js.map": "/my-portfolio/static/js/main.ce0aab8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c331200.css",
-    "static/js/main.b43d533c.js"
+    "static/css/main.1e9e17ca.css",
+    "static/js/main.ce0aab8c.js"
   ]
 }

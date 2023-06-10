@@ -51,10 +51,6 @@ const App = () => {
         <Box child={<About />} isFirst={false}/>
         <Box child={<Portfolio />} isFirst={false}/>
         <Box child={<Footer />} isFirst={true}/>
-        {/* <Header />
-        <About />
-        <Portfolio />
-        <Footer /> */}
     </>
   )
 }

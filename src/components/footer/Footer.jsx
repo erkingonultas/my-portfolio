@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="footer__copyright">
         <small>
           Designed/Developed by Erkin Gönültaş<br />
-          Last Updated October 2022
+          Last Updated June 2023
         </small>
       </div>
     </footer>

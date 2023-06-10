@@ -41,10 +41,28 @@ class Slide extends React.Component {
                 <article className="slide__content">
                     <div className="headlines">
                         <h2 className="slide__headline">{this.props.data.headline}</h2>
-                        {this.props.data.desc !== "" ? <small>{this.props.data.desc}<br /></small> : null} 
+                        {this.props.data.desc !== "" ? <small>{this.props.data.desc}<br /></small> : null}
+                        {this.props.data.comments.length !== 0 ? <h4 className='comment-header' style={{fontSize: "big", color: "var(--primary)"}}>User Comments:</h4>:null}
+                        
+                        {this.props.data.comments.length !== 0 ? 
+                            
+                            <div class="carousel">
+                                <div class="change_outer">
+                                    <ul class="change_inner">
+                                        {this.props.data.comments.map((comment) => 
+                                            <li class="element" key={comment}>{comment}</li>
+                                        )}
+                                        {/* <li class="element">sakdjaslkdjasdla aksdjh aksl jdah</li>
+                                        <li class="element">ksadhj k jdfghkd flk</li>
+                                        <li class="element">Tiger Tiger Tiger</li>
+                                        <li class="element">Jaguar Jaguar Jaguar Jaguar</li>
+                                        <li class="element">Panther</li> */}
+                                    </ul>
+                                </div>
+                            </div>:null}
                         {this.props.data.href1 === "" ?
-                        <a className="slide__action btn disabled" href={this.props.data.href1} target="_blank" rel="noopener noreferrer">{this.props.data.button1}</a>
-                        : <a className="slide__action btn" href={this.props.data.href1} target="_blank" rel="noopener noreferrer">{this.props.data.button1}</a>}
+                            <a className="slide__action btn disabled" href={this.props.data.href1} target="_blank" rel="noopener noreferrer">{this.props.data.button1}</a>
+                            : <a className="slide__action btn" href={this.props.data.href1} target="_blank" rel="noopener noreferrer">{this.props.data.button1}</a>}
                         {this.props.data.href2 !== "" ? <a className="slide__action btn" href={this.props.data.href2} target="_blank" rel="noopener noreferrer">{this.props.data.button2}</a> : null}
                     </div>
                     <div className="pics">

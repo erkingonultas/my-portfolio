@@ -1,7 +1,9 @@
 import React from 'react'
+import './header.css';
 import BehanceLogo from '../../assets/icons/behance-light.svg'
 import GithubLogo from '../../assets/icons/github-light.svg'
 import GmailLogo from '../../assets/icons/gmail-light.svg'
+import LinkedinLogo from '../../assets/icons/linkedin-light.svg'
 
 
 const HeaderSocials = () => {
@@ -16,9 +18,9 @@ const HeaderSocials = () => {
       <a href="https://github.com/erkingonultas" target="_blank" rel="noopener noreferrer">
         <img src={GithubLogo} alt="github" />
       </a>
-      
-      {/* <a href="https://linkedin.com" target="_blank"><img src={BehanceLogo} alt="behance"/></a> */}
-      <link rel="stylesheet" href="header.css" />
+      <a href="https://www.linkedin.com/in/erkin-gönültaş-ba0940258/" target="_blank"  rel="noopener noreferrer">
+        <img src={LinkedinLogo} alt="linkedin" />
+      </a>
     </div>
   )
 }

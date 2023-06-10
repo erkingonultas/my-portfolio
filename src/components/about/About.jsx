@@ -11,9 +11,9 @@ const About = () => {
     <section className='about' id='about'>
       <h2 style={{ 'fontWeight': "900" }} >ABOUT ME</h2>
       <p>
-        I am a mobile app developer based in Istanbul, Turkey.<br />Currently holding a degree from Gazi University in Chemical Engineering. <br /><br />
+        I am a <strong>Software Developer</strong> based in <strong>Istanbul, Turkey</strong>.<br />Currently doing a <strong>Master's Degree</strong> at <strong>Boğaziçi University</strong> in <strong>Software Engineering.</strong><br/>
         I've been developing mobile apps since early 2020. A passion started as a hobby... <br /><br />
-        While building my own projects;<br /> I started freelancing, built several apps for clients.
+        While building my own projects;<br /> I started freelancing, built several apps for many clients.
       </p>
       <div className="about__content">
         {
@@ -38,8 +38,8 @@ const About = () => {
 }
 
 const abouts = [
-  { title: 'ReactJS Development', description: 'My second go to language. I had a few projects but nothing commercial.', imgUrl: reactLogo },
-  { title: 'Flutter Development', description: 'My main language. Can be said that I\'ve been using it since the beginning!', imgUrl: flutterLogo },
+  { title: 'ReactJS', description: 'My second go to framework. I had a few projects but nothing commercial.', imgUrl: reactLogo },
+  { title: 'Flutter', description: 'My main framework. Can be said that I\'ve been using it since the beginning!', imgUrl: flutterLogo },
   { title: 'UI/UX Design', description: 'I design all of the apps I\'ve built. I believe in designs that: Pixel perfect, responsive and modern and clean.', imgUrl: UXLogo },
 
 ];

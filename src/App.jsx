@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer'
 import {motion, useAnimation} from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react'
+import Certifications from './components/certifications/Ceritifications'
 
 const boxVariant = {
   visible: {opacity: 1, transition: {duration: .85}},
@@ -49,6 +50,7 @@ const App = () => {
     <>
         <Box child={<Header/>} isFirst={true} />
         <Box child={<About />} isFirst={false}/>
+        <Box child={<Certifications />} isFirst={false}/>
         <Box child={<Portfolio />} isFirst={false}/>
         <Box child={<Footer />} isFirst={true}/>
     </>

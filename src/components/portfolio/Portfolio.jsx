@@ -104,7 +104,7 @@ const slideData = [
       "\"Simple and smart. Thank you Calorimeter👌\" - N. T.",
       "\"What a great app. Congrats!\" - R. I.",
       "\"A useful program for tracking calories we take daily. I found it successful.\" - F. A.",
-      "\"An easy to use and useful application back🙏\" - Selin",
+      "\"An easy to use and useful application 🙏\" - Selin",
     ],
     button1: 'Available on Google Play Store',
     href1: "https://play.google.com/store/apps/details?id=com.erkingonultas.CALORIMETER",

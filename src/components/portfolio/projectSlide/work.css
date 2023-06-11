@@ -147,8 +147,8 @@
   position: relative;
   width: max-content;
   text-align: left;
-  line-height: 45px;
-  height: 50px;
+  /* line-height: 45px; */
+  height: 60px;
 }
 
 .carousel .change_outer {
@@ -156,8 +156,8 @@
   top: 0;
   left: 5%;
   text-align: left;
-  height: 50px;
-  /* width: 40vw; */
+  height: 60px;
+  width: 30vw;
   overflow: hidden;
 }
 
@@ -171,7 +171,10 @@
   display: block;
   width: max-content;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 14px;
+  width: 30vw;
+  height: 60px;
+  white-space: normal;
   font-style: italic;
   color: var(--primary);
 }
@@ -186,21 +189,22 @@
 
   25%,
   45% {
-    transform: translateY(-45px);
+    transform: translateY(-65px);
+    /* transform: translateY(-45px); */
   }
 
   50%,
   70% {
-    transform: translateY(-90px);
+    transform: translateY(-125px);
   }
 
   75%,
   95% {
-    transform: translateY(-135px);
+    transform: translateY(-185px);
   }
 
   100% {
-    transform: translateY(-180px);
+    transform: translateY(-245px);
   }
 }
 
@@ -213,21 +217,21 @@
 
   25%,
   45% {
-    transform: translateY(-45px);
+    transform: translateY(-60px);
   }
 
   50%,
   70% {
-    transform: translateY(-90px);
+    transform: translateY(-120px);
   }
 
   75%,
   95% {
-    transform: translateY(-135px);
+    transform: translateY(-180px);
   }
 
   100% {
-    transform: translateY(-180px);
+    transform: translateY(-240px);
   }
 }
 

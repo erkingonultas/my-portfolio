@@ -54,17 +54,14 @@ const Portfolio = () => {
   )
 }
 
-// NELER KULLANILIP TECRÜBE EDİLDİĞİNİ ANLATAN BİR DİALOG KUTUSU GÖSTER
-
 
 const slideData = [
   {
     headline: 'APOLLO Music Player',
-    desc: 'a fully functioning music player.',
+    desc: 'a fully functional music player.',
     comments: [
       "\"I like this app it works very well I was impressed enough with it to buy the pro version I recommend you do it too it catalogs all my music.\" - John C.",
       "\"It's been years old friend I finally found you. This is for anyone but a must for 100gb plus music libraries.\" - F. B.",
-      "\"I like this app it works very well I was impressed enough with it to buy the pro version I recommend you do it too it catalogs all my music.\" - John C.",
     ],
     href1: "https://play.google.com/store/apps/details?id=com.erkingonultas.apollo_music_player",
     button1: 'Available on Google Play Store',

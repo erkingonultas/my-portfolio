@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1e9e17ca.css",
-    "main.js": "/my-portfolio/static/js/main.ce0aab8c.js",
+    "main.css": "/my-portfolio/static/css/main.ca8ec89c.css",
+    "main.js": "/my-portfolio/static/js/main.60504bd8.js",
     "static/media/schuldenex_bg.png": "/my-portfolio/static/media/schuldenex_bg.d7e88af483ed6a9a2bbd.png",
     "static/media/timple_bg.jpg": "/my-portfolio/static/media/timple_bg.3274d829551389061f41.jpg",
     "static/media/bg-texture.png": "/my-portfolio/static/media/bg-texture.ec94b5df56feae961c12.png",
@@ -12,8 +12,10 @@
     "static/media/schuldenex-ss1.png": "/my-portfolio/static/media/schuldenex-ss1.e64256e2eb7acce11798.png",
     "static/media/calorimeter-ss1.png": "/my-portfolio/static/media/calorimeter-ss1.2328f9b221dbe23685aa.png",
     "static/media/apollo-ss2.png": "/my-portfolio/static/media/apollo-ss2.df1d2aea84864f832331.png",
+    "static/media/testdome-logo.png": "/my-portfolio/static/media/testdome-logo.c0b351f608d7a8209c86.png",
     "static/media/calorimeter-ss2.png": "/my-portfolio/static/media/calorimeter-ss2.1faae8c56ce7d66fb8f4.png",
     "static/media/schuldenex-ss2.png": "/my-portfolio/static/media/schuldenex-ss2.e818ed379b83fff98db9.png",
+    "static/media/meta-logo.png": "/my-portfolio/static/media/meta-logo.57061df91a5a50b0fb8f.png",
     "static/media/timple-ss1.png": "/my-portfolio/static/media/timple-ss1.8a743b726c96c4b1d1e2.png",
     "static/media/behance-light.svg": "/my-portfolio/static/media/behance-light.e7ef46b32867791ac65093bff4c4d345.svg",
     "static/media/behance.svg": "/my-portfolio/static/media/behance.ac1d16797e4afa9a4dfdb5aba7b4e172.svg",
@@ -24,11 +26,11 @@
     "static/media/gmail-light.svg": "/my-portfolio/static/media/gmail-light.3b200e20ef24e7f12da95a8e64e17c23.svg",
     "static/media/gmail.svg": "/my-portfolio/static/media/gmail.91723b594a73055a72615cd235a9aa6d.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.1e9e17ca.css.map": "/my-portfolio/static/css/main.1e9e17ca.css.map",
-    "main.ce0aab8c.js.map": "/my-portfolio/static/js/main.ce0aab8c.js.map"
+    "main.ca8ec89c.css.map": "/my-portfolio/static/css/main.ca8ec89c.css.map",
+    "main.60504bd8.js.map": "/my-portfolio/static/js/main.60504bd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e9e17ca.css",
-    "static/js/main.ce0aab8c.js"
+    "static/css/main.ca8ec89c.css",
+    "static/js/main.60504bd8.js"
   ]
 }

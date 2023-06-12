@@ -33,7 +33,7 @@ const Certifications = () => {
 
 const certifications = [
     { title: 'TestDome, Flutter Developer', id: 'https://www.testdome.com/certificates/dc7e176d623445ed9d1a13703f688be1', img: TestDomeLogo },
-    { title: 'Meta Frontend Developer Professional Certificate', id: 'https://coursera.org/share/bbb5a43e53eb281d5299c03b0bacc34d', img: MetaLogo },
+    { title: 'Meta Frontend Developer Professional Certificate', id: 'https://coursera.org/share/d543da01389139310390f856f6735171', img: MetaLogo },
 ];
 
 export default Certifications

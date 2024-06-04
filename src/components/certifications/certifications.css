@@ -50,7 +50,7 @@
         margin-bottom: -1.5rem;
     }
     .certificate__img {
-        height: 95px;
+        width: 95px;
         object-fit: contain;
     }
     .certificate__item {

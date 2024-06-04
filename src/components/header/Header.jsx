@@ -21,8 +21,10 @@ const Header = () => {
           <h4 className='word-carousel'>
             <div>
               <ul className='flip2'>
-                <li>Flutter Developer</li>
                 <li>UI/UX Designer</li>
+                <li>Web Developer</li>
+                <li>Software Developer</li>
+                <li>Mobile Developer</li>
               </ul>
             </div>
           </h4>

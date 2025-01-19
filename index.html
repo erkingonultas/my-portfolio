@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Portfolio of Erkin Gonultas" />
+    <meta name="Erkin Gönültaş" content="The Portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erkin Gönültaş</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <p id="owner">ERKIN GONULTAS</p>
+        </div>
+        <div class="nav-items">
+            <button class="menu-button" id="bm">☰</button>
+        </div>
+    </nav>
+    <footer>
+        <p>Updated in Jan, 2025</p>
+        <div class="slider-counter">
+            <div class="count">
+                <p>1</p>
+            </div>
+            <p>/</p>
+            <p>7</p>
+        </div>
+    </footer>
+    <section class="landing-section">
+        <div id="textContainer"></div>
+        <button id="scrollButton" class="scroll-button">GALLERY</button>
+    </section>
+    <section class="bottom-section" id="bottomSection">
+        <div class="slider">
+            <div class="slide">
+                <div class="slide-bg-img">
+                    <img src="assets/bgs/img1.jpg" alt="img1">
+                </div>
+            </div>
+
+            <div class="slide-main-img">
+                <div class="slide-main-img-wrapper">
+                    <img src="assets/bgs/img1.jpg" alt="img1">
+                </div>
+            </div>
+
+            <div class="slide-copy">
+                <div class="slide-title">
+                    <h1>CalorimeterAI</h1>
+                </div>
+                <div class="slide-description">
+                    <p>Having a dietian was never this effortless.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="sentence-container">
+                <span class="sentence">Erkin is a mobile development focused software developer based in Istanbul.</span>
+                <span class="sentence"> He holds a master's degree in Software Engineering from Bogazici and </span>
+                <span class="sentence"> a bachelor's degree in Chemical Engineering from Gazi.</span>
+                <span class="sentence">He has proven track record of developing innovative mobile </span>
+                <span class="sentence">applications and leading development teams.</span>
+                <span class="sentence">You can find more of him on:
+                    <a href="https://www.linkedin.com/in/erkin-gonultas" target="_blank" rel="noopener noreferrer">Linkedin</a>, 
+                    <a href="https://github.com/erkingonultas" target="_blank" rel="noopener noreferrer">Github</a>, 
+                    <a href="https://www.behance.net/erkingnlta1" target="_blank" rel="noopener noreferrer">Behance</a>,
+                    <a href="mailto:erkingonultas@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>, 
+                    <a href="assets/Erkin-Gonultas-Resume.pdf" target="_blank" rel="noopener noreferrer"> Resume.</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+    <script type="module" src="bodymovin.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "LydianAI",
         "LinguaNova",
         "APOLLO",
+        "FLIPSTER",
         "Schuldenex",
         "Calorimeter",
         "TIMPLE",
-        "FLIPSTER",
     ];
 
     const slideDescriptions = [
@@ -23,10 +23,10 @@ document.addEventListener("DOMContentLoaded", () => {
         "Bring your ideas to life by simply telling them.",
         "Practice your speech skills in your way.",
         "A music player you can finally trully own.",
+        "A mobile game project for car enthusiasts.",
         "Customer service app for a German law office.",
         "Track your calories and set goals.",
         "A social media project for music enthusiasts.",
-        "A mobile game project for car enthusiasts.",
     ];
 
     function createSlide(slideNumber, direction) {
@@ -571,7 +571,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function goToSentence(index) {
         currentIndex = index;
-        sentenceContainer.style.transform = `translateY(-${index * 12}vh)`;
+        sentenceContainer.style.transform = `translateY(-${index * 23}vh)`;
         updateFocus();
         updateActiveDot();
     }
@@ -620,13 +620,31 @@ document.addEventListener('DOMContentLoaded', () => {
         handleSwipe();
     }, false);
 
-    modal.addEventListener('wheel', (e) => {
+let scrollTimeout = null; // Timer for throttling
+let isScrolling = false; // To prevent excessive scrolling
+modal.addEventListener(
+    'wheel',
+    (e) => {
+        if (isScrolling) {
+            // Ignore events if already scrolling
+            return;
+        }
+        isScrolling = true;
+        // Process scroll direction
         if (e.deltaY > 0 && currentIndex < sentences.length - 1) {
             goToSentence(currentIndex + 1);
         } else if (e.deltaY < 0 && currentIndex > 0) {
             goToSentence(currentIndex - 1);
         }
-    }, { passive: true });
+
+        // Throttle further scroll events
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            isScrolling = false;
+        }, 500); // Adjust the delay as necessary
+    },
+    { passive: true }
+);
 
     function handleSwipe() {
         if (touchEndY < touchStartY && currentIndex < sentences.length - 1) {

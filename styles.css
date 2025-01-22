@@ -157,15 +157,15 @@ footer p {
 .slide-main-img {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 65%;
     transform: translate(-50%, -50%);
-    width: 25%;
+    width: 50%;
     height: 60%;
     z-index: 2;
 }
 
 .slide-main-img-wrapper img {
-    object-fit: scale-down;
+    object-fit: cover;
 }
 .slide-main-img-wrapper {
     position: absolute;
@@ -336,7 +336,7 @@ canvas {
 
 .sentence-container {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 0;
     width: 100%;
     transition: transform 0.5s ease;

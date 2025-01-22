@@ -1,9 +1,9 @@
 /// SLIDE LOGIC
+let scrollAllowed = false;
 document.addEventListener("DOMContentLoaded", () => {
     const totalSlides = 8;
     let currentSlide = 1;
     let isAnimating = false;
-    let scrollAllowed = true;
     let lastScrollTime = 0;
 
     /// arkaplan foto bul. ekran görüntüsü bul.
@@ -320,12 +320,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /// SCROLL BUTTON LOGIC
 document.getElementById('owner').addEventListener('click', function () {
+    scrollAllowed = false;
     window.scrollTo({
         top: 0,
         behavior: 'smooth' 
     });
 });
 document.getElementById('scrollButton').addEventListener('click', function () {
+    scrollAllowed = true;
     window.scrollTo({
         top: window.innerHeight, 
         behavior: 'smooth' 
@@ -571,7 +573,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function goToSentence(index) {
         currentIndex = index;
-        sentenceContainer.style.transform = `translateY(-${index * 23}vh)`;
+        let scrollConst = 16;
+        // if (window.innerHeight > 900) { scrollConst = 12;}
+        sentenceContainer.style.transform = `translateY(-${index * scrollConst}vh)`;
         updateFocus();
         updateActiveDot();
     }
